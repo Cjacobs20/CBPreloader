@@ -5,9 +5,13 @@
     padding-left: 100px;
     animation-timing-function: ease-in-out;
 }
-.omBs {
-  animation-name: onbOne;
+.buttonFrame{
+  animation-name: buttonFrame;
   animation-duration: 2s;
+}
+.letsGo{
+  animation-name: letsGo;
+  animation-duration: 4s;
 }
 body {
   background-color: aquamarine;
@@ -84,12 +88,37 @@ p {
         transform: translate3d(0px, 0px, 0px);
       }
 }
-@keyframes  onbOne {
+@keyframes buttonFrame {
   0%{
-    transform: translate3d(-200px, 0px, 0px);
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  25% {
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  75% {
+    transform: translate3d(-300px, 0px, 0px);
   }
   100% {
     transform: translate3d(0px, 0px, 0px);
-    /* transform: rotate(90deg); */
+  }
+}
+@keyframes letsGo {
+  0%{
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  25% {
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  75% {
+    transform: translate3d(-300px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
   }
 }
