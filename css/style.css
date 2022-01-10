@@ -1,8 +1,9 @@
 
 .logo {
     animation-name: logo;
-    animation-duration: 6s;
+    animation-duration: 2s;
     padding-left: 100px;
+    animation-timing-function: ease-in-out;
 }
 .omBs {
   animation-name: onbOne;
